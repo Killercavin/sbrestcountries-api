@@ -1,0 +1,33 @@
+body {
+    background-color: #f8f9fa;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.country-card {
+    transition: transform 0.2s;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.country-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.card-img-top {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+}
+
+h1 {
+    color: #2c3e50;
+    font-weight: 700;
+}
+
+.form-control, .form-select {
+    border-radius: 5px;
+}
+
+.btn {
+    border-radius: 5px;
+}
